@@ -1,0 +1,122 @@
+@import './reset.css';
+@import './common.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/*header*/
+.header .inner{height: 66px;display: flex;align-items: center;}
+.header .auth-area{display: flex;
+    font-size: 14px;
+    font-weight: bold;line-height: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-left: 18px;
+    gap: 5px;
+}
+.header .auth-area span{margin-left:12px;}
+.header .auth-area .login-list{
+    display: flex;
+    background:url(../images/header-login.png) left bottom no-repeat;
+    width: 109px;
+    height: 37px;
+    border-color: #666;
+    text-align: center;
+    padding: 15px 20px 6px;
+}
+.header .auth-area .link-login{
+background:url(../images/auth-bg1.png.png);
+color: white;
+width: 80px;
+height: 30px;
+background-size: contain;
+}
+.header .auth-area .link-auth{background: url(../images/auth-bg2.png.png); width: 97px;height: 30px;background-size: contain;}
+.header .gnb{margin-left: 29px;font-size: 15px;font-weight: bold;}
+.header .gnb .nav-list{display: flex;gap: 18px;}
+.header .util-area{
+gap: 14px;
+margin-left: auto; 
+display: flex;
+grid-template: 14px;
+font-size: 15px;
+align-items: center;
+font-weight: bold;}
+
+/*footer*/
+footer::before{
+    height: 40px;
+    width: 100%;
+    background: #f8f8f8;
+    display: block;
+    border-top: 2px solid #d4d4d4 ;
+    content:'';}
+.footer .group-link  {position: relative; display: flex;}
+.footer .group-link .link-area{ display: flex;position: absolute;left: 100px;top:-40px;}
+.footer .group-link .link-area a{
+    width: 140px;
+    padding-right: 30px;
+    font-size: 12px;
+    line-height: 40px;
+    background: url(../images/up.png)no-repeat;
+    background-position: right 50px center;
+} 
+.footer .group-link .link-area a:nth-last-child(4){background-position: right 40px center;}
+.footer .group-link .sns-area{
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    right:10px;top: -40px;}
+.footer .group-link .sns-area a{width: 22px;height: 22px;}
+.footer .sns-area .ic-facebook{background: url(../images/facebook.png)no-repeat;}
+.footer .sns-area .ic-instagram {background: url(../images/insta.png)no-repeat;}
+.footer .sns-area .ic-naverpost {background: url(../images/postnaver.png)no-repeat;}
+.footer .sns-area .ic-youtube {background: url(../images/youtube.png)no-repeat;}
+.footer .sns-area .ic-navertv {background: url(../images/navertv.png)no-repeat;}
+.footer .group-info{display: flex; padding-bottom: 80px; position: relative;}
+.footer .group-info .logo{padding: 30px 50px 0 40px;}
+.footer .group-info .logo img{width: 33px;height: 34px;}
+.footer .group-info .nav-area{width: 495px;height: 77px;margin-top: 15px;}
+.footer .nav-list{display: flex;}
+.footer .nav-list a:hover{color:black ; font-weight: bold;}
+.footer .nav-list li{margin-right: 12px;}
+.footer .nav-list li a{line-height: 20px; font-size: 12px;color: #7f7f7f;}
+.footer .nav-area .info{line-height: 20px; font-size: 12px;color: #555; }
+.footer .nav-area .addr{color:#7f7f7f;font-size: 11px;font-family: Arial; margin-top: 10px;}
+.footer .mark-area{display: flex; position: absolute; top: 30px;right: 70px; }
+.footer .mark-area a{ margin-right:10px}
+.footer .mark-area img:nth-child(1){width: 34px;height: 21px;}
+.footer .web{position: absolute; }
+.footer .web-txt{ 
+    width: 100px;
+    height: 50px; 
+    border:1px solid black; 
+    font-size: 13px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center ; 
+    position: relative; 
+    top: -55px;right:50px; 
+    display: none;
+    background: white;
+}
+.footer .web-txt.on{display: block;} 
+.footer .customer{ position: absolute; }
+.footer .customer-txt{
+    width: 200px;height: 50px; 
+    border:1px solid black; 
+    font-size: 13px; display: flex; 
+    justify-content: center; 
+    align-items: center ; 
+    position: relative; 
+    top: -55px;right:50px; 
+    display: none; 
+    background: white;}
+.footer .customer-txt.on{display: block;}
+.footer .group-info .mark-area .customer p{display: none;}
+.footer .group-info .mark-area .banker p{display: none;}
+.footer .group-info .mark-area img:nth-child(2){width: 25px; height: 21px;}
+.footer .group-info .mark-area img:nth-child(2){width: 25px; height: 21px;}
+.footer .group-info .mark-area img:nth-child(3){width: 21px;height: 21px;}
+.footer .group-info .mark-area img:nth-child(3){width: 21px;height: 21px;}

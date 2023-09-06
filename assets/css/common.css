@@ -1,0 +1,14 @@
+.inner{
+    width: 980px;
+    margin: 0 auto;
+}
+.bd-inner{
+    background: #f4f7fa;;
+}
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+}
