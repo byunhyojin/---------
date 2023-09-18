@@ -1,3 +1,29 @@
+/*스킵메뉴*/
+
+#skipNav {
+    position: absolute;
+    z-index: 10;
+}
+
+#skipNav a {
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-100%);
+}
+
+#skipNav a:focus,
+#skipNav a:active {
+    transform: translateY(0);
+}
+     
+
+
 /*슬라이드*/
 .sc-visual{ height: 520px;}
 .sc-visual .swiper{ height: 100%;  position: relative;  }
